@@ -50,7 +50,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
             <label>Email</label>
             <input type="email" name="mail"required>
             <label>Password</label>
-            <input type="text" name="pass"required>
+            <input type="password" name="pass"required>
             <input  type="submit" name=""value="Submit">
         </form>
         <p>Not have an account? <a href="signup.php">Sign up here</a></p>
